@@ -147,6 +147,8 @@ echo 18. aneis olimpicos
 echo 19. carta
 echo 20. casa
 echo 21. dinhero
+echo 22. camera de cinema
+echo 23 radioatividade
 set /p resposta=dijite o numero da opecao desejada e peresione enter 
 if %resposta%==1 call abelha.cmd
 if %resposta%==2 call aranha.cmd
@@ -169,6 +171,8 @@ if %resposta%==18 call olimpicos.cmd
 if %resposta%==19 call carta.cmd
 if %resposta%==20 call casa.cmd
 if %resposta%==21 call dinheiro.cmd
+if %resposta%==22 call cinema.cmd
+if %resposta%==23 call radioatividade.cmd
 pause
 goto menu
 echo msbox"erro resposta invalida",vbcritical,"erro 249"> %temp%\erro.vbs
