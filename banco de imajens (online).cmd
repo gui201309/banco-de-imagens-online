@@ -148,7 +148,10 @@ echo 19. carta
 echo 20. casa
 echo 21. dinhero
 echo 22. camera de cinema
-echo 23 radioatividade
+echo 23. radioatividade
+echo 24. nuvem
+echo 25. nota musical
+echo 26. lupa
 set /p resposta=dijite o numero da opecao desejada e peresione enter 
 if %resposta%==1 call abelha.cmd
 if %resposta%==2 call aranha.cmd
@@ -173,6 +176,9 @@ if %resposta%==20 call casa.cmd
 if %resposta%==21 call dinheiro.cmd
 if %resposta%==22 call cinema.cmd
 if %resposta%==23 call radioatividade.cmd
+if %resposta%==24 call nuvem.cmd
+if %resposta%==25 call nota-musical.cmd
+if %resposta%==26 call lupa.cmd
 pause
 goto menu
 echo msbox"erro resposta invalida",vbcritical,"erro 249"> %temp%\erro.vbs

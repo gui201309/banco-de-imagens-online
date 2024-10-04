@@ -1,4 +1,5 @@
-:cinema                                                  
+:cinema   
+echo %time% %date%  cinema aberto ,banco de imajens >> registro.txt                                               
 echo                    ######                    
 echo                       ##########                  
 echo         ######        ############                
@@ -20,5 +21,5 @@ echo     ##############################        ######
 echo     ##############################          ##    
 echo       ##########################                  
 pause
-:goto menu                                              
+goto menu                                              
                                                   

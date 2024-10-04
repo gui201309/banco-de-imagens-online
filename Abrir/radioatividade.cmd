@@ -1,8 +1,10 @@
 :radiotividade
+echo %time% %date%  radioatividade aberto ,banco de imajens >> registro.txt
 echo                          __    _                          
-echo                     _wr""        "-q__                    
-echo                  _dP                 9m_ 
+echo                     _wr""        "-q__   
                  
+echo                  _dP                 9m_ 
+
 echo                _#P                     9#_                
 echo               d#@                       9#m               
 echo              d##                         ###              
@@ -30,5 +32,5 @@ echo       "*w_________am#####P"   ~9#####mw_________w*"
 echo           ""9@#####@M""           ""P@#####@M""           
 
 pause
-:goto menu                                              
+goto menu                                              
                                                   
