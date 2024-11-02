@@ -3,7 +3,7 @@ set "cor= f0"
 cd abrir
 echo %time% %date% app aberta ,banco de imajens >> registro.txt
 echo %time% %date% v: 1.3.2 ,banco de imajens >> registro.txt
-color %cor%
+color %tema-banco%
 title "banco de imajens"
 timeout /t 2/nobreak >nul
 
@@ -19,22 +19,36 @@ set /p resposta=dijite o numero da opecao desejada e peresione enter
 if %resposta%==1 goto temas
 if %resposta%==2 goto tudo
 if %resposta%==3 exit
-if %resposta%==@1443 call dev-tols.cmd
+if %resposta%==@1443 start dev-tols.cmd
 if %resposta%==@1 call registro.txt
 if %resposta%==@2 goto cor
+if %resposta%==#1 call abelha.cmd
+if %resposta%==#2 call aranha.cmd
+if %resposta%==#3 call barbatana.cmd
+if %resposta%==#4 call cao.cmd
+if %resposta%==#5 call cauda.cmd
+if %resposta%==#6 call armario.cmd
+if %resposta%==#7 call cama.cmd
+if %resposta%==#8 call cumputador.cmd
+if %resposta%==#9 call 7up.cmd
+if %resposta%==#10 call adidas.cmd
+if %resposta%==#11 call android.cmd
+if %resposta%==#12 call apple.cmd
+if %resposta%==#13 call crome.cmd
+if %resposta%==#14 call fecebook.cmd
+if %resposta%==#15 call flor.cmd
+if %resposta%==#16 call trevo.cmd
+if %resposta%==#17 call jarro.cmd
+if %resposta%==#18 call olimpicos.cmd
+if %resposta%==#19 call carta.cmd
+if %resposta%==#20 call casa.cmd
+if %resposta%==#21 call dinheiro.cmd
+if %resposta%==#22 call cinema.cmd
+if %resposta%==#23 call radioatividade.cmd
+if %resposta%==#24 call nuvem.cmd
+if %resposta%==#25 call nota-musical.cmd
+if %resposta%==#26 call lupa.cmd
 
-goto menu
-
-:cor
-cls
-echo bem-vindo a funsao mudar fundo
-echo 1. preto
-echo 2. baranco
-echo 3. cincento
-set /p resposta=dijite o numero da opecao desejada e peresione enter
-if %resposta%==1 cor = 07
-if %resposta%==2 cor = f0
-if %resposta%==3 cor = 87
 goto menu
 
 :temas
